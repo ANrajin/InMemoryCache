@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "382d1549-d38b-427e-a087-a6239e4ff134": {
+      "ProjectGuid": "382d1549-d38b-427e-a087-a6239e4ff134",
+      "DisplayName": "InMemoryCache",
+      "ColorIndex": 0
+    },
+    "03a58aa6-fcac-4fa1-9bc1-58ea4b731940": {
+      "ProjectGuid": "03a58aa6-fcac-4fa1-9bc1-58ea4b731940",
+      "DisplayName": "DataAccessLibrary",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

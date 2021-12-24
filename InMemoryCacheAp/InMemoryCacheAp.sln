@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryCache", "InMemoryCache\InMemoryCache.csproj", "{382D1549-D38B-427E-A087-A6239E4FF134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{03A58AA6-FCAC-4FA1-9BC1-58EA4B731940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{382D1549-D38B-427E-A087-A6239E4FF134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382D1549-D38B-427E-A087-A6239E4FF134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382D1549-D38B-427E-A087-A6239E4FF134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382D1549-D38B-427E-A087-A6239E4FF134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A58AA6-FCAC-4FA1-9BC1-58EA4B731940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A58AA6-FCAC-4FA1-9BC1-58EA4B731940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A58AA6-FCAC-4FA1-9BC1-58EA4B731940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A58AA6-FCAC-4FA1-9BC1-58EA4B731940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8AE5E68-CB43-4F37-AF80-9860F3586E25}
+	EndGlobalSection
+EndGlobal

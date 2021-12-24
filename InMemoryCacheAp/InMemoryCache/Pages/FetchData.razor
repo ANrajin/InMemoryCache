@@ -1,0 +1,32 @@
+﻿@page "/fetchdata"
+
+<PageTitle>Employee List</PageTitle>
+
+@using InMemoryCache.Data
+@inject DataAccess data;
+
+<h1>List of Employees</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+
+@code {
+    List<EmployeeModel> employees;
+
+    protected override async Task OnInitializedAsync()
+    {
+        employees = await data.GetEmployeesCache();
+    }
+}
+
+@if(employees is not null){
+    <ul>
+        @foreach (var item in employees)
+        {
+            <li>@item.FirstName @item.LastName</li>
+        }
+    </ul>
+}
+else{
+    <p>Loading...</p>
+}
